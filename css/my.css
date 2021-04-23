@@ -813,7 +813,7 @@ footer {
         display: flex;
         justify-content: space-between; }
         footer .footer-wrapper .footer-icons ul li a {
-          color: #fffefe;
+          color: #999999;
           transition: 0.3s; }
           footer .footer-wrapper .footer-icons ul li a:hover {
             color: #008ed6ed; }
@@ -821,7 +821,7 @@ footer {
       font-size: 14px;
       font-weight: 600;
       text-transform: uppercase;
-      color: #444348; }
+      color: #999999; }
 
 /****************************
 ****RESET BUTTON STYLES******
