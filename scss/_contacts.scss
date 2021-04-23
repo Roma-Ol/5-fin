@@ -1,0 +1,187 @@
+/***********************
+*******CONTACTS********
+**********************/
+
+@import "variables";
+
+.contacts{
+    height: 714px;
+    background: $color-grey-background;
+    .contacts-wrapper{
+        max-width: 980px;
+        padding: 0;
+        .contacts-upper-text{
+            h3{
+                margin: 39.5px 0 0 0;
+                font-size: 14px;
+                line-height: 48px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                color: $color-blue;
+            }
+            h2{
+                margin: -2px 0 1px 0;
+                font-size: 36px;
+                font-weight: 600;
+                color: $color-black-font;
+            }
+            .contacts-emphasizing{
+                margin: 30px 0 0 -1px;
+                height: 2px;
+                width: 42px;
+                .blue-contacts-emphasizing{
+                    background: $color-blue;
+                    width: 20px;
+                }
+            }
+        }
+        .contacts-elements{
+            justify-content: space-between;
+            width: 1000px;
+            .contacts-block{
+                margin: 59px 0 -1px 0;
+                max-width: 200px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                &:first-child{
+                    a{
+                        margin: 0 0 0 -6px;
+                    }
+                }
+                &:last-child{
+                    a{
+                        margin: -4px 0 0 0;
+                    }
+                }
+                &:nth-child(2){
+                    a{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+                .img{
+                    height: 32px;
+                    width: auto;
+                    margin: 0 0 31px 0;
+                    img{
+                        margin: auto;
+                    }
+                }
+                img{
+                    margin: 0 0 27px 0;
+                }
+                a{
+                    text-decoration: none;
+                    font-size: 18px;
+                    line-height: 26px;
+                    font-weight: 400;
+                    color: $color-grey-font;
+                    text-align: center;
+                    transition: 0.5s;
+                    &:hover{
+                        color:$color-blue;
+                    }
+                }
+            }
+        }
+        // FORM
+        .form{
+            padding: 60px  84px 40px 66px;
+            margin: 0 auto;
+            background: $color-black-background;
+            height: 360px;
+            width: 770px;
+            position: relative;
+            bottom: -70px;
+            form{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                input{
+                    background: $color-black-background;
+                    border: 1px solid #444348;
+                    color: $color-white;
+                    width: 300px;
+                    border-radius:5px;
+                    padding: 15px;
+                    text-transform: capitalize;
+                    transition: 0.5s;
+                    &::placeholder{
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        font-size: 14px;
+                    }
+                    &:hover{
+                        border: 1px solid #909090;
+                    }
+                    &:focus{
+                        border: none;
+                        border: 1px solid $color-white;
+                    }
+                }
+                .form-left-inputs{                        
+                    .narrow-inputs{
+                        height: 50px;
+                        margin: 0 0 20px 0;
+                    }
+                }
+                .form-right-inputs{
+                    .wide-input{
+                        background: $color-black-background;
+                        border: 1px solid #444348;
+                        color: $color-white;
+                        border-radius:5px;
+                        padding: 17px 15px 15px 20px;
+                        height: 190px;
+                        width:301px;
+                        text-transform: capitalize;
+                        margin: 0 0 20px 0;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        transition: 0.5s;
+                        &::placeholder{
+                            font-weight: 600;
+                            text-transform: uppercase;
+                            font-size: 14px;
+                        }
+                        &:hover{
+                            border: 1px solid #909090;
+                        }
+                        &:focus{
+                            border: none;
+                            border: 1px solid $color-white;
+                        }
+                    }
+                    .form-submit{
+                        width: 160px;
+                        height: 50px;
+                        width: 160px;
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: $color-white;
+                        background:none;
+                        letter-spacing: 0.2px;
+                        text-transform: capitalize;
+                        padding: 15px;
+                        border: 0.2px solid #494949;
+                        border-radius: 6px;
+                        transition: 0.2s;
+                        text-transform: capitalize;
+                        &:hover{
+                            background-color: $color-blue;
+                            border-color: $color-blue;
+                        }
+                        &:focus{
+                            background-color: $color-blue;
+                            border-color: $color-blue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

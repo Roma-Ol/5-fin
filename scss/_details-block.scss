@@ -1,0 +1,90 @@
+/***********************
+******DETAILS BLOCK*****
+************************/
+.details-block{
+    min-height: 705px;
+    .details-left{
+        img{
+            margin: -7px -40px -54px 0;
+        }
+    }
+    .details-right{
+        h3{
+            margin: 100px 0 0 3px;
+            font-size: 14px;
+            line-height: 48px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: $color-blue;
+        }
+        h2{
+            margin: -1px 0 0 3px;
+            font-size: 36px;
+            font-weight: 600;
+            text-transform: none;
+            color: $color-black-font;
+        }
+        .content-emphasizing{
+            margin: 28px 0 0 4px;
+            height: 2px;
+            width: 42px;
+            .blue-header-emphasizing{
+                background: $color-blue;
+                width: 20px;
+            }
+        }
+        article{
+            margin: 25px 0 0 4px;
+            font-size: 18px;
+            line-height: 26px;
+            max-width: 470px;
+            font-weight: 400;
+            text-transform: none;
+            letter-spacing: normal;
+            color: $color-grey-font;
+        }
+        ul{
+            margin-top: 23px;
+            li{
+                display: flex;
+                align-items: center;
+                img{
+                    margin: 0 0 0 4px;
+                }
+                .icon-1{
+                    margin: 2px 0 0 3px;
+                }
+                .icon-2{
+                    margin: 1px 3px 0 6px;
+                }
+                .icon-3{
+                    margin: 3px 1px 0 6px;
+                }
+                .icon-4{
+                    margin: 1px 0 0 3px;
+                }
+                p{
+                    font-size: 18px;
+                    line-height: 36px;
+                    font-weight: 400;
+                    text-transform: none;
+                    letter-spacing: normal;
+                    color: $color-black-font;
+                }
+                .text-1{
+                    margin: 1px 0 0 9.4px;
+                }
+                .text-2{
+                    margin: 0 0 0 9.4px;
+                }
+                .text-3{
+                    margin: 0 0 0 10.5px;
+                }
+                .text-4{
+                    margin: 0 0 0 10px;
+                }
+            }
+        }
+    }
+}

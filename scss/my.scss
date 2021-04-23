@@ -1,0 +1,51 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+// @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+/*RESETTING STANDART STYLES BEHAVIOUR*/
+@import "reset.scss";
+
+// VARIABLES
+@import "variables.scss";
+
+//MIXINS
+@import "mixins.scss";
+
+// BASIC PAGE SETTINGS
+@import "basic.scss";
+
+// HEADER STYLES
+@import "header.scss";
+
+// PRODUCT OVERVIEW STYLES (LIST OF AMAZING FEATURES)
+@import "product-overview.scss";
+
+// HORIZONTAL LINE STYLES
+@import "horizontal-line.scss";
+
+// DETAILS BLOCK STYLES
+@import "details-block.scss";
+
+// NEXT DETAIL BLOCK STYLES
+@import "details-third-block.scss";
+
+// SLIDER STYLES
+@import "slider.scss";
+
+// EYE-CATCHER STYLES
+@import "eye-catcher.scss";
+
+// PRICING & PLANS BLOCK STYLES
+@import "pricing.scss";
+
+// CONTACTS BLOCK WITH FORM STYLES
+@import "contacts.scss";
+
+// FOOTER STYLES
+@import "footer.scss";
+
+// RESETTING STANDART BUTTON STYLES
+@import "button-reset-styles.scss";
+
+// ADAPTIVITY (BREAKPOINTS)
+@import "adaptivity(breakpoints).scss";

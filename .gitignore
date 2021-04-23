@@ -1,0 +1,4 @@
+# IGNORING DEPENDENCIES
+/node_modules
+/gitignore
+/.vscode

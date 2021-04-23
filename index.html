@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- <link rel="stylesheet" href="style/reset.css"> -->
+  <link rel="stylesheet" href="css/my.css">
+  <title>bootstrap practice</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <div class="container-fluid container-fluid-header" id="home">
+    <header>
+      <!-- UPPER PART OF THE HEADER -->
+      <nav class="navbar navbar-expand-md navbar-dark header-navbar d-flex justify-content-between">
+        <a href="#" class="d-flex align-items-center">
+          <img class="header-logo-img" src="media/header_logo.webp" alt="header-logo">
+          <p>
+            <span>onepage</span>
+            <span>theme</span>
+          </p>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+          aria-controls="#navbarsExampleDefault" aria-expanded="true" aria-label="Toggle naviation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-items-block" id="navbarsExampleDefault">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a href="#features" class="nav-link">Features</a>
+            </li>
+            <li class="nav-item active">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item active">
+              <a href="#testimonas" class="nav-link">Testimonials</a>
+            </li>
+            <li class="nav-item active">
+              <a href="#pricing" class="nav-link">Pricing</a>
+            </li>
+            <li>
+              <a href="#contacts" class="nav-link active">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- HEADER CONTENT (LOWER PART) -->
+      <div class="header_content no-gutters row">
+        <!-- left content of the header -->
+        <div class="col-md-5 left-side-entity d-flex flex-column justify-content-between">
+          <p>introducing lucid theme</p>
+          <h2>Carefully crafted and beautiful landing page.</h2>
+          <article>
+            Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi,
+            at elementum magna ultricies accumsan. Cras venenatis lacus sed dolor
+            placerat tempus. Morbi blandit at neque ut imperdiet.
+          </article>
+          <div class="buttons d-flex justify-content-between">
+            <button class="btn-one">DOWNLOAD NOW</button>
+            <button class="btn-two">VIEW FEATURES</button>
+          </div>
+        </div>
+        <!-- right content of the header -->
+        <div class="col-md-7 right-side-entity d-flex justify-content-end">
+          <img src="media/header_device_img.webp" alt="header-img">
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- PRODUCT OVERVIEW -->
+  <div class="container" id="features">
+    <section class="product-overview d-flex flex-column align-items-center">
+      <!-- DIV HEADINGS -->
+      <h3>product overview</h3>
+      <h2>List of amazing features</h2>
+      <div class="header-emphasizing d-flex justify-content-between">
+        <div class="blue-header-emphasizing"></div>
+        <div class="blue-header-emphasizing"></div>
+      </div>
+      <!-- 4 ITEMS LIST -->
+      <div class="row justify-content-between features-list">
+        <!-- 1st ITEM -->
+        <div class="product-entity col-12 col-md-3 d-flex flex-column align-items-center">
+          <div class="feature-bg d-flex justify-content-center">
+            <img src="media/feature_div/monitor_feature.webp" class="align-self-center" height="26" alt="feature-monitor">
+          </div>
+          <h2>Responsive</h2>
+          <article>
+            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum
+            lacinia consectetur.
+          </article>
+        </div>
+        <!-- 2nd ITEM -->
+        <div class="product-entity col-12 col-md-3 d-flex flex-column align-items-center">
+          <div class="feature-bg d-flex justify-content-center">
+            <img src="media/feature_div/settings_feature.webp" class="align-self-center" height="32" alt="feature-setting">
+          </div>
+          <h2>Customizable</h2>
+          <article>
+            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum
+            lacinia consectetur.
+          </article>
+        </div>
+        <!-- 3d ITEM -->
+        <div class="product-entity col-12 col-md-3 d-flex flex-column align-items-center">
+          <div class="feature-bg d-flex justify-content-center">
+            <img src="media/feature_div/like_feature.webp" class="align-self-center" height="32" alt="feature-like">
+          </div>
+          <h2>Lovely design</h2>
+          <article>
+            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum
+            lacinia consectetur.
+          </article>
+        </div>
+        <!-- 4th ITEM -->
+        <div class="product-entity col-12 col-md-3 d-flex flex-column align-items-center">
+          <div class="feature-bg d-flex justify-content-center">
+            <img src="media/feature_div/phone_feature.webp" class="align-self-center" height="32" alt="feature-phone">
+          </div>
+          <h2>Mobile Friendly</h2>
+          <article>
+            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum
+            lacinia consectetur.
+          </article>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- HORIZONTAL LINE -->
+  <div class="hr"></div>
+
+  <!-- DETAILS BLOCK -->
+  <div class="container" id="about">
+    <div class="row details-block">
+      <!-- LEFT SIDE OF THE BLOCK (IMAGE)-->
+      <div class="col-md-6 details-left d-flex justify-content-center">
+        <img src="media/iphone_x2.webp" class="align-self-center" width="510" alt="two iphones">
+      </div>
+      <!-- RIGHT SIDE OF THE BLOCK (TEXT) -->
+      <div class="col-md-6 details-right d-flex flex-column">
+        <h3>dip into the details</h3>
+        <h2>Beautiful on every device</h2>
+        <div class="content-emphasizing d-flex justify-content-between">
+          <div class="blue-header-emphasizing"></div>
+          <div class="blue-header-emphasizing"></div>
+        </div>
+        <article>
+          Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+          Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
+          auctor a ornare odio. Sed non&nbsp;&nbsp;mauris vitae erat consequat
+          auctor en in elit.
+        </article>
+        <ul>
+          <li>
+            <img src="media/cup.webp" class="icon-1" width="16" height="16" alt="cup">
+            <p class="text-1">Awesome design</p>
+          </li>
+          <li>
+            <img src="media/mouse.webp" class="icon-2" width="10" height="17" alt="mouse">
+            <p class="text-2">Fully responsive</p>
+          </li>
+          <li>
+            <img src="media/lighting.webp" class="icon-3" width="11" height="17" alt="lighting">
+            <p class="text-3">Retina ready</p>
+          </li>
+          <li>
+            <img src="media/speedometer.webp" class="icon-4" width="16" height="15" alt="speedometer">
+            <p class="text-4">Tons of features and easy to use</p>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ANOTHER (NEXT) DETAILS BLOCK -->
+  <div class="container-fluid details-third-block d-flex justify-content-center">
+    <div class="row details-block">
+      <!-- LEFT SIDE OF THE BLOCK (TEXT)-->
+      <div class="col-md-6 details-left d-flex flex-column">
+        <h3>dip into the details</h3>
+        <h2>Super easy to customize</h2>
+        <div class="content-emphasizing d-flex justify-content-between">
+          <div class="blue-header-emphasizing"></div>
+          <div class="blue-header-emphasizing"></div>
+        </div>
+        <article>
+          Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+          Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor
+          a ornare odio. Sed non&nbsp;&nbsp;mauris vitae erat consequat auctor eu in elit.
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+          inceptos himenaeos.
+        </article>
+      </div>
+      <!-- RIGHT SIDE OF THE BLOCK (IMAGE) -->
+      <div class="col-md-6 details-right d-flex justify-content-center">
+        <img src="media/iphone_4_3d_div.webp" class="align-self-center" width="718" alt="iphone-img">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SLIDER -->
+  <div class="container-fluid slider" id="testimonas">
+    <div class="row slider-wrapper mx-auto">
+      <div class="slider-upper-text d-flex flex-column align-items-center">
+        <h3>quality has its price</h3>
+        <h2>Pricings & Plans</h2>
+        <div class="slider-emphasizing d-flex justify-content-between">
+          <div class="blue-slider-emphasizing"></div>
+          <div class="blue-slider-emphasizing"></div>
+        </div>
+      </div>
+      <!-- SLIDER ELEMENTS -->
+      <div class="slider-items">
+        <div class="col-md-6">
+          <div class="slider-item">
+            <article>
+              Once upon a time all the Rivers combined to protest against the action of the
+              Sea in making their waters salt. “When we come to you,” said they to the Sea.
+            </article>
+            <div class="authoring d-flex align-items-center">
+              <img src="media/slider/Slider_John_Doe_img.webp" alt="author-img">
+              <div class="authoring-text">
+                <p class="name">John Doe</p>
+                <p class="position">ceo, the rivers company</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="slider-item">
+            <article>
+              A shoe is not only a design, but it's a part of your body language, the way you
+              walk. The way you're going to move is quite dictated by your shoes.
+            </article>
+            <div class="authoring d-flex align-items-center">
+              <img src="media/slider/Slider_Dean_Winchester_img.webp" alt="author-img">
+              <div class="authoring-text">
+                <p class="name">Dean Winchester</p>
+                <p class="position">ux designer, google inc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="slider-item">
+            <article>
+              A shoe is not only a design, but it`s a part of your body language, the way you
+              walk. The way you`re going to move is quite dictated by your shoes.
+            </article>
+            <div class="authoring d-flex align-items-center">
+              <img src="media/slider/Slider_Dean_Winchester_img.webp" alt="author-img">
+              <div class="authoring-text">
+                <p class="name">Dean Winchester</p>
+                <p class="position">ux designer, google inc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="slider-item">
+            <article>
+              A shoe is not only a design, but it`s a part of your body language, the way you
+              walk. The way you`re going to move is quite dictated by your shoes.
+            </article>
+            <div class="authoring d-flex align-items-center">
+              <img src="media/slider/Slider_Dean_Winchester_img.webp" alt="author-img">
+              <div class="authoring-text">
+                <p class="name">Dean Winchester</p>
+                <p class="position">ux designer, google inc.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EYE-CATCHER -->
+  <div class="container-fluid eye-catcher d-flex justify-content-center">
+    <div class="row d-flex align-content-center justify-content-between">
+      <div class="col-sm-12 col-md-8">
+        <p>Like what you see? <span>Get this great theme now!</span></p>
+      </div>
+      <div class="col-md-4">
+        <div class="buttons d-flex">
+          <button class="button-one">VIEW FEATURES</button>
+          <button class="button-two">DOWNLOAD NOW</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRICING -->
+  <div class="container pricing" id="pricing">
+    <section class="pricing-wrapper">
+      <div class="pricing-upper-text d-flex flex-column align-items-center">
+        <h3>quality has its price</h3>
+        <h2>Pricings & Plans</h2>
+        <div class="slider-emphasizing d-flex justify-content-between">
+          <div class="blue-slider-emphasizing"></div>
+          <div class="blue-slider-emphasizing"></div>
+        </div>
+      </div>
+      <!-- PRICING VARIATIONS -->
+      <div class="row pricing-elements d-flex">
+        <!-- FIRST VARIATION (FREE)-->
+        <div class="pricing-element col-md-3 d-flex flex-column align-items-center">
+          <h3>free</h3>
+          <div class="price-itself">
+            <div class="price-elements">
+              <p class="price-currency">$</p>
+              <p class="price-value">0</p>
+            </div>
+            <p class="price-clarification">/per month</p>
+          </div>
+          <div class="text-with-button d-flex flex-column align-items-center">
+            <article>
+              Fusce fermentum placerat magna ac pharetra.
+              Aliquam euismod elit non ipsum <a href="#">lacinia</a>
+              consectetur
+            </article>
+            <button class="prcing- first-button">
+              order now
+            </button>
+          </div>
+        </div>
+        <!-- SECOND VARIATION  (PERSONAL)-->
+        <div class="pricing-element col-md-3 d-flex flex-column align-items-center">
+          <h3>personal</h3>
+          <div class="price-itself">
+            <div class="price-elements">
+              <p class="price-currency">$</p>
+              <p class="price-value">25</p>
+            </div>
+            <p class="price-clarification">/per month</p>
+          </div>
+          <div class="text-with-button d-flex flex-column align-items-center">
+            <article>
+              Fusce fermentum placerat magna ac pharetra.
+              Aliquam euismod elit non ipsum <a href="#">lacinia</a>
+              consectetur
+            </article>
+            <button>
+              order now
+            </button>
+          </div>
+        </div>
+        <!-- THIRD VARIATION (BUSINESS) -->
+        <div class="pricing-element col-md-3 d-flex flex-column align-items-center">
+          <h3>business</h3>
+          <div class="price-itself">
+            <div class="price-elements">
+              <p class="price-currency">$</p>
+              <p class="price-value">50</p>
+            </div>
+            <p class="price-clarification">/per month</p>
+          </div>
+          <div class="text-with-button d-flex flex-column align-items-center">
+            <article>
+              Fusce fermentum placerat magna ac pharetra.
+              Aliquam euismod elit non ipsum <a href="#">lacinia</a>
+              consectetur
+            </article>
+            <button>
+              order now
+            </button>
+          </div>
+        </div>
+        <!-- FOURTH VARIATION (ULTIMATE) -->
+        <div class="pricing-element col-md-3 d-flex flex-column align-items-center">
+          <h3>ultimate</h3>
+          <div class="price-itself">
+            <div class="price-elements">
+              <p class="price-currency">$</p>
+              <p class="price-value">99</p>
+            </div>
+            <p class="price-clarification">/per month</p>
+          </div>
+          <div class="text-with-button d-flex flex-column align-items-center">
+            <article>
+              Fusce fermentum placerat magna ac pharetra.
+              Aliquam euismod elit non ipsum <a href="#">lacinia</a>
+              consectetur
+            </article>
+            <button>
+              order now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- CONTACTS -->
+  <div class="container-fluid contacts d-flex justify-content-center" id="contacts">
+    <div class="contacts-wrapper">
+      <div class="contacts-upper-text d-flex flex-column align-items-center">
+        <h3>stay in touch</h3>
+        <h2>Contact us</h2>
+        <div class="contacts-emphasizing d-flex justify-content-between">
+          <div class="blue-contacts-emphasizing"></div>
+          <div class="blue-contacts-emphasizing"></div>
+        </div>
+      </div>
+      <!-- CONTACTS ELEMNTS -->
+      <div class="row d-flex  contacts-elements">
+        <!-- CONTACT ELEMENT 1 -->
+        <div class="col-xs-6 col-md-4 contacts-block">
+          <img src="media/contact_icons/contacts_phone.webp" width="18" height="32" alt="phone">
+          <a href="callto:4151245678">Phone: (415) 124-5678</a>
+          <a href="callto:4121238290">Fax: (412) 123-8290</a>
+        </div>
+        <!-- CONTACT ELEMENT 2 -->
+        <div class="col-xs-6 col-md-4 contacts-block">
+          <img src="media/contact_icons/contacts_location.webp" width="24" height="32" alt="location">
+          <a href="https://www.google.com.ua/maps/place/1001+Brickell+Bay+Dr+%231900,+Miami,+FL+33131,+%D0%A1%D0%A8%D0%90/@25.7636744,-80.1916048,17z/data=!3m1!4b1!4m5!3m4!1s0x88d9b6823bb57ac5:0xc79ba7e3f934ad85!8m2!3d25.7636744!4d-80.1894161?hl=ru">
+            <span>1001 Brickell Bay Dr.</span>
+            <span>Suite 1900</span>
+            <span>Miami, FL 33131</span>
+          </a>
+        </div>
+        <!-- CONTACT ELEMENT 3 -->
+        <div class="col-xs-12 col-md-4 contacts-block">
+          <div class="img d-flex">
+            <img src="media/contact_icons/contacts_email.webp" width="32" height="22" alt="email">
+          </div>
+          <a href="mailto:support@yourname.com">support@yourname.com</a>
+        </div>
+      </div>
+
+      <!-- FEEDBACK FORM -->
+      <div class="container form">
+        <form action="#">
+          <div class="form-left-inputs d-flex flex-column">
+            <input required class="field-inputs narrow-inputs" type="text" placeholder="name *">
+            <input required class="field-inputs narrow-inputs" type="email" placeholder="email *">
+            <input required class="field-inputs narrow-inputs" type="text" placeholder="subject *">
+          </div>
+          <div class="form-right-inputs d-flex flex-column align-items-end">
+            <textarea style="resize: none;" required class="field-inputs wide-input" placeholder="Message *"></textarea>
+            <input class="form-submit" type="submit" value="SEND MESSAGE">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAP IFRAME -->
+  <div class="container-fluid">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3593.1882624696354!2d-80.1904679!3d25.7643445!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b683f22d27d3%3A0x887d1e7e26592174!2sTenth%20Street%20Promenade%20Metromover%20Station!5e0!3m2!1sru!2sua!4v1619162899265!5m2!1sru!2sua"
+    style="border:0;width:100%;height: 372.5px;;" allowfullscreen="">
+    </iframe>
+  </div>  
+
+  <!-- FOOTER -->
+  <footer class="container-fluid footer">
+    <div class="footer-wrapper">
+      <!-- SOCIAL MEDIA LINKS -->
+      <div class="footer-icons">
+        <ul class="footer-social-media-links">
+          <li class="footer-social-media-link">
+            <a href="#"><i class="fab fa-behance"></i></a>
+          </li>
+          <li class="footer-social-media-link">
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+          </li>
+          <li class="footer-social-media-link">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="footer-social-media-link">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="footer-social-media-link">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+        </ul>
+      </div>
+      <!-- COPIRIGHT TEXT -->
+      <div class="footer-copiright-text">
+        <p>copyright © 2014 lucid onepage theme</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--Bootstrap Bundle with Popper -->
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+  </script>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="https://kit.fontawesome.com/faf48ac38c.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>

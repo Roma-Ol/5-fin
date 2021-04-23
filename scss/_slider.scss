@@ -1,0 +1,119 @@
+/*************************
+*********SLIDER***********
+**************************/
+.slider{
+    background-image: url("../media/slider/slider_background.webp");
+    height: 640px;
+    @include bg-img-style();
+    .slider-wrapper{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        .slider-upper-text{
+            h3{
+                margin: 46px 0 0 0;
+                font-size: 14px;
+                line-height: 48px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                color: $color-blue;
+            }
+            h2{
+                margin: -1px 0 0 0;
+                font-size: 36px;
+                font-weight: 600;
+                text-transform: none;
+                letter-spacing: normal;
+                color: $color-white;
+            }
+            .slider-emphasizing{
+                margin: 30px 0 0 -1px;
+                height: 2px;
+                width: 42px;
+                .blue-slider-emphasizing{
+                    background: $color-blue;
+                    width: 20px;
+                }
+            }
+        }
+    }
+    .slider-items{
+        width: 1222px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        .slider-item{
+            width: 600px;
+            position: relative;
+            right: -12px;
+            article{
+                font-size: 24px;
+                margin: 87px 50px 0 1px;
+                line-height: 32px;
+                font-weight: 400;
+                font-style: italic;
+                color: $color-white;            
+            }
+            .authoring{
+                margin: 24px 0 138px 0;
+                .authoring-text{
+                    height: 41px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    margin: -3px 0 0 27px;
+                    .name{
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: $color-white;
+                    }
+                    .position{
+                        font-size: 14px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+    .slick-dots{
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        li{        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            border: 1px solid #ffffff85;
+            font-size: 0;
+            transition: 0.5s;
+            &:hover{
+                    background-color: #ffffff9d;
+                    border: none;
+                    width: 12px;
+                    height: 12px;
+            }
+        }
+    }
+    .slick-dots li.slick-active{
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: $color-white;
+        transition: 0.5s;
+    }
+    .slick-list{
+        overflow: hidden;
+    }
+    .slick-track{
+        display: flex;
+    }
+}

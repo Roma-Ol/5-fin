@@ -1,0 +1,55 @@
+/*************************
+****DETAILS THIRD BLOCK***
+**************************/
+.details-third-block{
+    background: #f2f2f2;
+    height: 544px;
+    .details-block{
+        max-width: 1170px;
+        .details-left{
+            margin: 113px 0 0 -12px;
+            h3{
+                font-size: 14px;
+                line-height: 48px;
+                font-weight: 800;
+                text-transform: uppercase;
+                letter-spacing: 0.095em;
+                color: $color-blue;
+            }
+            h2{
+                font-size: 36px;
+                font-weight: 600;
+                text-transform: none;
+                letter-spacing: normal;
+                color: $color-black-font;
+            }
+            .content-emphasizing{
+                margin: 30px 0 0 -1px;
+                height: 2px;
+                width: 42px;
+                .blue-header-emphasizing{
+                    background: $color-blue;
+                    width: 20px;
+                }
+            }
+            article{
+                margin: 24px 0 0 0;
+                font-size: 18px;
+                line-height: 26px;
+                max-width: 470px;
+                font-weight: 400;
+                text-transform: none;
+                letter-spacing: 0.001em;
+                color: $color-grey-font;
+            }
+        }
+        .details-right{
+
+            img{
+                position: relative;
+                left: -35px;
+                margin: -146px 0 0 0;
+            }
+        }
+    }
+}
